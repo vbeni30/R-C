@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -25,8 +26,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <Link href="/" className="font-serif text-2xl font-medium">
-              Gospel
+           <Link href="/">
+              <Image
+                src="/rhema.webp" // Ensure this matches your file name
+                alt="rhema Logo"
+                width={50} // Adjust size as needed
+                height={50}
+                className="h-12 w-auto" // Optional styling
+              />
             </Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
