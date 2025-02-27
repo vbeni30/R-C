@@ -59,7 +59,7 @@ export default function UpcomingEvents() {
                   <span>{event.location}</span>
                 </div>
                 <p className="text-gray-700 mb-4">{event.description}</p>
-                <Button className="w-full bg-[#9B2B3A] hover:bg-[#8a2533] text-white">Learn More & Register</Button>
+                <Button className="w-full bg-[#EA1908] hover:bg-[#D21608] text-white">Learn More & Register</Button>
               </div>
             </div>
           ))}
@@ -68,4 +68,3 @@ export default function UpcomingEvents() {
     </section>
   )
 }
-

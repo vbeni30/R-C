@@ -12,7 +12,7 @@ const weeklySchedule = [
 
 export default function ServiceTimes() {
   return (
-    <section className="py-24 px-8 bg-[#9B2B3A]">
+    <section className="py-24 px-8 bg-[#12355A]">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <Clock className="h-12 w-12 mx-auto mb-6 text-white" />
@@ -31,7 +31,7 @@ export default function ServiceTimes() {
               }`}
             >
               <div className="w-32">
-                <h3 className="font-serif text-xl font-semibold text-[#9B2B3A]">{schedule.day}</h3>
+                <h3 className="font-serif text-xl font-semibold text-[#12355A]">{schedule.day}</h3>
               </div>
               <div className="flex-1">
                 {schedule.times.map((time, timeIndex) => (
@@ -48,4 +48,3 @@ export default function ServiceTimes() {
     </section>
   )
 }
-

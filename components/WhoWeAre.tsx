@@ -45,7 +45,7 @@ export default function WhoWeAre() {
             />
             <h3 className="font-serif text-2xl font-normal mb-6 text-gray-900">{feature.title}</h3>
             <p className="text-base leading-relaxed text-gray-600 mb-6">{feature.description}</p>
-            <Link href="#" className="text-[#9B2B3A] hover:text-[#8a2533] text-sm inline-flex items-center gap-2">
+            <Link href="#" className="text-[#EA1908] hover:text-[#D21608] text-sm inline-flex items-center gap-2">
               <span className="text-lg">+</span> Read more
             </Link>
           </div>
@@ -54,4 +54,3 @@ export default function WhoWeAre() {
     </section>
   )
 }
-

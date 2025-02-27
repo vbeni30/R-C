@@ -47,8 +47,8 @@ export default function WeeklyServices() {
           {services.map((service, index) => (
             <div key={index} className="bg-gray-50 rounded-xl p-8 transition-all hover:shadow-lg">
               <div className="flex items-start gap-6">
-                <div className="p-4 bg-[#9B2B3A]/10 rounded-xl">
-                  <service.icon className="h-8 w-8 text-[#9B2B3A]" />
+                <div className="p-4 bg-[#EA1908]/10 rounded-xl">
+                  <service.icon className="h-8 w-8 text-[#EA1908]" />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-serif text-2xl font-semibold mb-2">{service.name}</h3>
@@ -65,7 +65,7 @@ export default function WeeklyServices() {
                   <p className="text-gray-600 mb-4">{service.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {service.features.map((feature, featureIndex) => (
-                      <span key={featureIndex} className="px-3 py-1 bg-[#9B2B3A]/5 text-[#9B2B3A] rounded-full text-sm">
+                      <span key={featureIndex} className="px-3 py-1 bg-[#EA1908]/5 text-[#EA1908] rounded-full text-sm">
                         {feature}
                       </span>
                     ))}
@@ -79,4 +79,3 @@ export default function WeeklyServices() {
     </section>
   )
 }
-

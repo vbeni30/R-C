@@ -40,16 +40,16 @@ export default function SpecialServices() {
           {specialServices.map((service, index) => (
             <div
               key={index}
-              className="bg-gray-50 rounded-xl p-8 border border-gray-100 hover:border-[#9B2B3A]/20 transition-colors"
+              className="bg-gray-50 rounded-xl p-8 border border-gray-100 hover:border-[#EA1908]/20 transition-colors"
             >
               <h3 className="font-serif text-2xl font-semibold mb-4">{service.name}</h3>
               <div className="flex flex-wrap gap-4 text-gray-600 mb-4">
                 <div className="flex items-center">
-                  <Calendar className="h-5 w-5 mr-2 text-[#9B2B3A]" />
+                  <Calendar className="h-5 w-5 mr-2 text-[#EA1908]" />
                   {service.date}
                 </div>
                 <div className="flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-[#9B2B3A]" />
+                  <Clock className="h-5 w-5 mr-2 text-[#EA1908]" />
                   {service.time}
                 </div>
               </div>
@@ -61,4 +61,3 @@ export default function SpecialServices() {
     </section>
   )
 }
-
