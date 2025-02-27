@@ -14,7 +14,7 @@ export default function DonationCTA() {
           the size, makes a difference.
         </p>
         <Button
-          className="bg-white text-[#9B2B3A] hover:bg-gray-100 px-8 py-6 text-lg font-semibold"
+          className="bg-white text-[#4688D9] hover:bg-gray-100 px-8 py-6 text-lg font-semibold"
           data-aos="fade-up"
           data-aos-delay="600"
         >
