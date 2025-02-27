@@ -72,7 +72,7 @@ export default function Hero() {
                 {slide.description}
               </p>
               <Button
-                className="bg-[4688d9] hover:bg-[#8a2533] text-white px-8 py-6 text-lg"
+                className="bg-[#9B2B3A] hover:bg-[#8a2533] text-white px-8 py-6 text-lg"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
